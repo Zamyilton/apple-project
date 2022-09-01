@@ -24,7 +24,7 @@ html {
 .nav-container {
   background: #ffffff;
   height: 44px;
-  opacity: 0.983;
+  opacity: 0.9;
   z-index: 300;
   position: fixed;
   left: 0;
@@ -382,8 +382,6 @@ nav .desktop-nav label:hover {
   display: none;
 }
 
-
-
 input,
 div,
 span,
@@ -417,7 +415,7 @@ a {
 .sec-1 h2 {
   font-size: 2.5em;
   line-height: 50px;
-  color: blue;
+  color: #2400ff;
 }
 
 .sec-1 h1 {
@@ -430,24 +428,22 @@ a {
   line-height: 40px;
 }
 
-.sec-1 span a {
+span a {
   display: flex;
   margin-top: 30px;
 }
-
-.sec-1 a h4 {
+a h4 {
   font-size: 1.2em;
   color: red;
   opacity: 0.8;
 }
 
-.sec-1 a h4:hover{
-opacity: 1;
-transition:0.9s ease-in-out;
+a h4:hover {
+  opacity: 1;
+  transition: 0.9s ease-in-out;
 }
 
-
-.sec-1 a {
+a {
   text-decoration: none;
 }
 .lt-i {
@@ -457,7 +453,7 @@ transition:0.9s ease-in-out;
 }
 
 @keyframes uchiha {
-  0%{
+  0% {
     margin-left: 8px;
     transition: ease-in;
   }
@@ -468,20 +464,227 @@ transition:0.9s ease-in-out;
   line-height: 80px;
 }
 
-.cir {
-
-}
+/* .cir {
+} */
 
 /* Sec-1 ends */
 /* Sec-2 */
-  .sec-2 {
-    /* top:50%;
-    left: 10%; */
-    width: 100%;
-    height: 100vh;
-    color: #1b1b1b;
-    background-color: #ffffff;
-    padding-top: 15%;
-    display: flex;
-    justify-content: space-evenly;
-  }
+.sec-2 {
+  width: 100%;
+  height: 80vh;
+  color: #1b1b1b;
+  background-image: url(../images/Rectangle\ 19backpink.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text-sec-2 h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Inter", sans-serif;
+}
+.text-sec-2 h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+}
+.text-sec-2 h4 {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+.text-sec-2 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5%;
+}
+.sp-2 a {
+  display: flex;
+  margin-top: -10px;
+}
+a h4 {
+  font-size: 1.2em;
+  color: red;
+  opacity: 0.8;
+}
+
+a h4:hover {
+  opacity: 1;
+  transition: 0.9s ease-in-out;
+}
+
+.super {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sec-3 {
+  width: 100%;
+  height: 90vh;
+  background-color: #000000;
+}
+
+.sec-3-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .box {
+  background-color: #ffffff;
+  width: 50px;
+} */
+
+.first-box {
+  background-color: #ffffff;
+  width: 50%;
+  height: 80vh;
+  margin: 35px;
+  display: flex;
+}
+
+.first-box img {
+  margin-top: 20%;
+  margin-left: 3%;
+}
+.second-box img {
+  margin-top: 20%;
+  margin-left: -12%;
+  width: 350px;
+  transform: rotate(180deg);
+  transform: rotateY(180deg);
+}
+.second-box {
+  background-color: #ffffff;
+  width: 50%;
+  height: 80vh;
+  margin: 35px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sec-3-fb {
+  margin: 0 auto;
+  margin-top: 40%;
+  line-height: 4em;
+}
+.fb2 {
+  margin: 0 auto;
+  margin-top: 38%;
+  line-height: 4em;
+}
+
+.sec-3-fb h1 {
+  color: black;
+  font-size: 4rem;
+  font-family: "Inter", sans-serif;
+}
+
+.sec-3-fb p {
+  color: black;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.air {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 84px;
+  /* identical to box height */
+
+  background: linear-gradient(
+    180deg,
+    #ff0000 0%,
+    rgba(5, 0, 255, 0.848958) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+.sec-4 {
+  width: 100%;
+  height: 80vh;
+  color: #1b1b1b;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex;
+  justify-content: space-between;
+}
+.mini {
+  font-size: 2em;
+  line-height: 80px;
+  font-weight: lighter;
+}
+.mini-st {
+  margin-right: -100px;
+}
+.sec-4-lt {
+  color: #000000 !important;
+}
+.sec-5 {
+  width: 100%;
+  height: 3vh;
+  background-color:black;
+}
+.sec-6 {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-6 img {
+  width: 500px;
+}
+
+.sec-6-lt {
+  margin-top: 15%;
+  margin-right: 20%;
+}
+
+.sec-6-lt h1 {
+  font-size: 6rem;
+}
+
+.air-me{
+  font-size: 6rem;
+}
+
+.sec-6-lt p{
+  font-size: 2rem;
+}
+
+.sec-6-lt h4{
+  font-size: 1.5rem;
+  line-height: 6rem;
+}
+
+footer{
+  width: 100%;
+  height:60vh;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 50px;
+  justify-content: space-evenly;
+}
+footer a {
+  color: red;
+}
+footer span{
+  color: red;
+}
+.array{
+  display: flex;
+  justify-content: space-between;
+}
+.one {
+  margin-left: 3%;
+}
+.two{
+  margin-right: 3%;
+}
+.cent {
+margin-right: 20%;
+}
